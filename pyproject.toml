@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "nysm"
+version = "0.1.0"
+description = "Find crypto algorithm candidates in provided sources"
+authors = ["Adrian Gonzalez <adriangonzalezsanchez1996@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.1"
+numpy = "^1.26.4"
+pycryptodome = "^3.20.0"
+scikit-learn = "^1.4.1.post1"
+jupyter = "^1.0.0"
+matplotlib = "^3.8.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
